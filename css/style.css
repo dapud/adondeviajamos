@@ -36,18 +36,21 @@ h1 {
   height: -moz-fit-content;
   height: fit-content;
   background: #be0a64;
+  -webkit-filter: invert(1);
+          filter: invert(1);
   margin: auto;
   font-size: 600%;
   color: #080807;
   border-radius: 10px;
   text-shadow: 10px 20px 30px beige;
-  /* transform: scale(1.5); */
   -webkit-transition-duration: 1s;
           transition-duration: 1s;
 }
 
 h1:hover {
   font-size: 650%;
+  -webkit-filter: blur(px);
+          filter: blur(px);
 }
 
 h2 {
