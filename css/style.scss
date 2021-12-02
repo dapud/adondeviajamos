@@ -1,0 +1,967 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+$ancho: 100%;
+$ancho2:30%;
+$alto: 140%;
+$color1: rgb(158, 17, 116);
+$color2:rgb(9, 162, 209);
+$size: 10px ;
+$align: center;
+$justi:center;  
+
+
+
+
+.derechos{
+    display: flex;
+    width: $ancho + 30% - $ancho2;
+    height: $alto - 60%;
+    color: $color1 - rgb(226, 9, 190);
+    font-size: $size * 3;
+    justify-content: $justi; 
+    align-items: $align;
+}
+
+
+body {
+    background-image: url(../imagenes/central/backgroundtheme2.jpeg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+h1 {
+    width: fit-content;
+    height: fit-content;
+    background: rgb(190, 10, 100);
+
+    margin: auto;
+    font-size: 600%;
+    color: rgb(8, 8, 7);
+    border-radius: 10px;
+    text-shadow: 10px 20px 30px beige;
+    /* transform: scale(1.5); */
+    transition-duration: 1s;
+
+}
+
+
+h1:hover {
+    font-size: 650%;
+
+}
+
+
+h2 {
+    text-align: center;
+    font-size: 300%;
+    color: rgb(8, 8, 7);
+    text-shadow: 5px 5px 8px white;
+
+}
+
+h3 {
+
+    text-align: center;
+    font-size: 150%;
+    color: rgb(8, 8, 7);
+    font-family: cursive;
+
+
+}
+
+h3 :hover {
+
+    transform: scale(1.1);
+    letter-spacing: 15px;
+    transition: 1s;
+}
+
+h4 {
+    width: 100%;
+
+    text-align: center;
+    opacity: 20%;
+    letter-spacing: 4px;
+
+}
+
+
+
+
+
+
+
+
+img {
+
+    width: 220px;
+    height: 200px;
+    object-fit: contain;
+    justify-content: center;
+
+}
+
+
+
+
+.menuInicial li {
+    display: inline;
+    text-transform: capitalize;
+    font-size: 15px;
+    color: rgb(230, 192, 165);
+    width: auto;
+    border: 5px solid rgb(11, 15, 11);
+    padding: 10px;
+    margin: 10px;
+    height: min-content;
+    background-color: azure;
+
+
+
+}
+
+.articulos {
+    width: 100%;
+    height: fit-content;
+    background: rgb(58, 226, 86);
+    justify-content: center;
+    text-align-last: center;
+
+
+}
+
+
+
+.articulo1 {
+    background-color: rgb(233, 114, 114);
+    width: 250px;
+    height: 520px;
+    border: 5px solid rgb(1, 94, 1);
+    padding: 10px;
+    margin: 10px;
+    display: inline-table;
+    text-align: center;
+    text-align-last: center;
+
+}
+
+.articulo1:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+
+
+}
+
+.escapadasMinuto {
+
+    width: 100%;
+    height: fit-content;
+    border: 1px solid rgb(97, 6, 49);
+    padding: 1px;
+    margin: 1px;
+
+    justify-content: space-around;
+    background-image: linear-gradient(to left, red, blue, red);
+
+
+}
+
+.imagenesEscapadas {
+
+    border: 1px solid rgb(2, 1, 1);
+    width: 100%;
+    height: fit-content;
+    padding: 10;
+    margin: 5;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+.imes {
+    width: 200px;
+    height: 120px;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+
+footer {
+    width: 100%;
+    height: 150px;
+
+    background-color: rgb(214, 208, 157);
+    text-align: center;
+
+}
+
+.pieDePagina {
+    font-size: 600%;
+    color: firebrick;
+}
+
+.pieDePagina:hover {
+    color: darkorange;
+    transition: 1s;
+}
+
+@media only screen and (max-width: 1176px) {
+    .pieDePagina {
+        font-size: 400%;
+        ;
+
+
+    }
+}
+
+@media only screen and (max-width: 863px) {
+    .pieDePagina {
+        font-size: 200%;
+        ;
+
+
+    }
+}
+
+.A {
+
+    color: rgb(99, 8, 72);
+}
+
+.A:hover:hover {
+    color: darkturquoise;
+    transition: 1s;
+}
+
+
+
+.donde {
+
+    color: darkorange;
+}
+
+.donde:hover {
+    color: darkturquoise;
+    transition: 1s;
+}
+
+.viajamos {
+
+    color: darkturquoise;
+}
+
+.viajamos:hover {
+    color: firebrick;
+    transition: 1s;
+
+
+}
+
+
+.tituloFinal {
+    width: 70%;
+    height: 100%;
+    float: right;
+    background-color: rgb(4, 182, 143);
+    font-size: 20;
+
+}
+
+.tituloFinal:hover {
+
+    background-color: rgb(247, 117, 11);
+    transition: 2s;
+    text-shadow: cornsilk 0px 0px 6px;
+
+
+
+}
+
+.logo {
+
+    width: 30%;
+    height: 50%;
+    background-color: crimson;
+    text-align: center;
+
+    font-size: 50px;
+    font-style: italic;
+    color: darkgoldenrod;
+}
+
+@media only screen and (max-width: 932px) {
+    .logo {
+        font-size: 30px;
+
+
+
+    }
+
+}
+
+.logo:hover {
+
+    transform: translate(7%);
+
+    transition: 1s;
+}
+
+
+.logo2 {
+
+    width: 30%;
+    height: 50%;
+    background-color: darkblue;
+
+    font-size: 50px;
+    font-style: italic;
+    color: darkgoldenrod;
+    text-align: center;
+}
+
+@media only screen and (max-width: 932px) {
+    .logo2 {
+        font-size: 30px;
+
+
+
+    }
+
+}
+
+.logo2:hover {
+    transform: translate(7%);
+    transition: 1s;
+
+
+}
+
+.logo3 {
+
+    width: 100%;
+    height: 50%;
+    display: flex;
+    background-color: rgb(8, 12, 12);
+
+    font-size: 50px;
+    font-style: italic;
+    color: darkgoldenrod;
+    justify-content: space-evenly;
+}
+
+.logo3:hover {
+    transition: 1s;
+    color: black;
+    text-shadow: 1px 1px 2px rgb(243, 243, 239);
+    font-size: 50px;
+    text-align: center;
+    opacity: 80%;
+}
+
+.contenedorAventura {
+
+
+    width: 100%;
+    height: auto;
+    background-color: rgb(141, 8, 41);
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-template-rows: 300px 300px 300px;
+    border: 2px solid black
+}
+
+.contenedorCultural {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    justify-content: space-around;
+}
+
+.combo1--background {
+
+    background-color: rgb(10, 170, 170);
+
+}
+
+
+
+.combo1__link__imacul--size {
+
+
+    width: 450px;
+    height: 300px;
+    border-radius: 150px;
+
+
+
+
+
+
+}
+
+.combo1__textoCultura--color {
+
+    width: 450px;
+    height: auto;
+
+    font-size: 20px;
+    font-family: cursive;
+    text-align: center;
+    align-self: center;
+
+
+}
+
+
+
+.combo1 {
+
+    width: 500px;
+
+
+}
+
+.textoCultura {
+
+    width: 500px;
+    margin: 2px 2px 2px 2px;
+}
+
+.combo2--border {
+    border: black solid;
+}
+
+.combo2 {
+
+    width: 500px;
+
+
+}
+
+.combo3--background {
+
+    background-color: blueviolet;
+}
+
+.combo4--border {
+    border: chartreuse solid;
+}
+
+.item {
+    width: 100%;
+    height: 100%;
+    background: ivory;
+}
+
+
+
+
+
+#item1 {
+
+    background-image: url(../imagenes/aventura/1aventura1024x300.jpeg);
+    background-size: cover;
+    grid-column: 1/3;
+    grid-row: 1/2;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    padding: 2px;
+    background-size: cover;
+    background-position: bottom;
+    color: #ffffff00
+}
+
+#item1:hover {
+
+
+    transition: 1s;
+    color: rgb(248, 242, 242);
+    text-shadow: 1px 1px 2px rgb(7, 7, 0);
+    font-size: 18px;
+    text-align: center;
+}
+
+#item2 {
+    background-image: url(../imagenes/aventura/3aventura600x800.jpeg);
+    background-color: rgb(102, 14, 48);
+    grid-column: 3/4;
+    grid-row: 1/3;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    padding: 2px;
+    background-size: cover;
+    background-position: bottom;
+    color: #ffffff00
+}
+
+#item2:hover {
+
+
+    transition: 1s;
+    color: black;
+    text-shadow: 1px 1px 2px rgb(243, 243, 239);
+    font-size: 18px;
+    text-align: center;
+}
+
+
+
+
+#item3 {
+    background-image: url(../imagenes/aventura/4aventuratra600x800.jpeg);
+    background-color: rgb(173, 20, 92);
+    grid-column: 1/2;
+    grid-row: 2/4;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    padding: 2px;
+    background-size: cover;
+    background-position: bottom;
+    color: #ffffff00
+}
+
+#item3:hover {
+
+
+    transition: 1s;
+    color: black;
+    text-shadow: 1px 1px 2px rgb(243, 243, 239);
+    font-size: 18px;
+    text-align: center;
+}
+
+
+
+
+
+#item5 {
+    background-image: url(../imagenes/aventura/4aventuratrarapel600x400.jpeg);
+    background-color: rgb(29, 211, 23);
+    grid-column: 2/4;
+    grid-row: 3/4;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    padding: 2px;
+    background-size: cover;
+    background-position: unset;
+    color: #ffffff00
+}
+
+#item5:hover {
+
+
+    transition: 1s;
+    color: black;
+    text-shadow: 1px 1px 2px rgb(243, 243, 239);
+    font-size: 18px;
+    text-align: center;
+}
+
+
+
+#item4 {
+    background-image: url(../imagenes/aventura/5aventuratra600x800.jpeg);
+    background-color: navy;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    padding: 2px;
+    background-size: cover;
+    background-position: bottom;
+    color: #ffffff00
+}
+
+#item4:hover {
+
+
+    transition: 1s;
+    color: black;
+    text-shadow: 1px 1px 2px rgb(243, 243, 239);
+    font-size: 18px;
+    text-align: center;
+}
+
+
+
+.contenedorRelax {
+
+    /* width: 100%;
+    height: 100%; */
+    /* background-color: rgb(240, 239, 243); */
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-template-rows: 300px 300px 300px;
+    border: 2px solid black
+}
+
+
+#item6 {
+
+    grid-column: 1/4;
+    grid-row: 1/2;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    padding: 2px;
+    background-image: url(/imagenes/relax/R-Piscinafull.jpg);
+    background-size: cover;
+    background-position: bottom;
+    border-radius: 20px;
+    color: #ffffff00;
+    background-color: #ffffff00;
+    ;
+
+
+
+}
+
+#item6:hover {
+
+    width: fit-content;
+
+    transition: 1s;
+    color: black;
+    text-shadow: 2px 2px 5px rgb(240, 240, 236);
+    font-size: 18px;
+    background-color: rgb(220, 233, 233);
+
+
+
+}
+
+
+
+
+#item7 {
+    background-color: rgb(102, 14, 48);
+    grid-column: 3/4;
+    grid-row: 2/4;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    padding: 2px;
+    background-image: url(/imagenes/relax/R-Piscina2600x800.jpeg);
+    background-size: cover;
+    background-position: bottom;
+    border-radius: 20px;
+    color: #ffffff00
+}
+
+#item7:hover {
+
+
+    transition: 1s;
+    color: black;
+    text-shadow: 2px 2px 2px rgb(243, 243, 239);
+    font-size: 18px;
+    text-align: center;
+
+
+}
+
+
+#item8 {
+
+    background-color: rgb(173, 20, 92);
+    grid-column: 1/2;
+    grid-row: 2/4;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    padding: 2px;
+    overflow: hidden;
+    background-image: url(/imagenes/relax/R-rostromujer600x800.jpeg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    color: #ffffff00
+}
+
+#item8:hover {
+
+
+    transition: 1s;
+    color: black;
+    text-shadow: 2px 2px 2px rgb(243, 243, 239);
+    font-size: 18px;
+    text-align: center;
+
+
+}
+
+#item9 {
+    background-color: rgb(29, 211, 23);
+    grid-column: 2/3;
+    grid-row: 3/4;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    padding: 2px;
+    background-image: url(/imagenes/relax/relax8.jpeg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    color: #ffffff00
+}
+
+#item9:hover {
+
+
+    transition: 1s;
+    color: black;
+    text-shadow: 2px 2px 5px rgb(243, 243, 239);
+    font-size: 18px;
+    text-align: center;
+
+
+}
+
+
+
+#item10 {
+    background-color: navy;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    padding: 2px;
+    background-image: url(/imagenes/relax/relax9.jpeg);
+    background-size: cover;
+    background-position: bottom;
+    border-radius: 20px;
+    color: #ffffff00
+}
+
+#item10:hover {
+
+
+    transition: 1s;
+    color: black;
+    text-shadow: 3px 3px 5px rgb(243, 243, 239);
+    font-size: 18px;
+    text-align: center;
+}
+
+
+
+
+
+@media only screen and (min-width: 1000px) {
+    h1 {
+        background: rgb(1, 192, 176);
+
+
+    }
+
+}
+
+@media only screen and (min-width: 1000px) {
+    h2 {
+        color: rgb(16, 143, 132);
+        font-size: small;
+
+    }
+
+}
+
+
+
+
+
+@media only screen and (max-width: 300px) {
+    .articulo1 {
+        background: rgb(238, 137, 6);
+
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .logo2 {
+        font-size: 2rem;
+    }
+
+
+
+}
+
+
+
+/* Diversion */
+
+.carru {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+
+.imaCar {
+
+    width: 500px;
+    height: 300px;
+}
+
+.diver {
+
+    width: 100px;
+    font-size: 50px;
+}
+
+
+.cajon {
+    display: flex block;
+    width: 100%;
+    height: 120px;
+    background-color: blue;
+    justify-content: center;
+}
+
+.close {
+    color: rgb(101, 5, 226);
+}
+.cajaCuotas{
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: rgb(1, 192, 176);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h5{
+    
+    
+    height: auto ;
+  
+    
+}
+
+.tajeta{
+
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+@for $i from 1 through 3 {
+
+    .cuotas-#{$i}
+    {    display: flex;
+        width: $i * 8em ;
+        font-size: $i * 20px;
+        justify-content: center;
+    }
+}
+
+.cards {
+    display: flex;
+    
+    width: 100%;
+    height: 200px;
+    border: rgb(1, 94, 1);
+    background-color: rgb(29, 4, 119);
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.tarjeta-visa,
+.tarjeta-mastercard,
+.tarjeta-amex {
+    
+
+      
+       
+        width: 280px;
+        height: 180px;
+
+        border-radius: 13px;
+
+        background-color: rgb(29, 4, 119);
+       
+
+   
+        
+    
+}
+
+@each $tarjeta in visa, mastercard, amex {
+    .tarjeta-#{$tarjeta} 
+    {
+  
+     
+   background-image: url("../imagenes/diversion /#{$tarjeta}.jpeg");
+     background-size:contain;
+     background-position: center; 
+ 
+    }
+    
+}
+
+
+
+/* seccion Cultura */
+
+.modal1 {
+    display: flex;
+    justify-content: center;
+}
