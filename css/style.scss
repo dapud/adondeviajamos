@@ -114,9 +114,14 @@ img {
 
 }
 
+/* .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
 
 
-
+/* 
 .menuInicial li {
     display: inline;
     text-transform: capitalize;
@@ -131,14 +136,13 @@ img {
 
 
 
-}
+} */
 
 .articulos {
     width: 100%;
     height: fit-content;
-    background: rgb(58, 226, 86);
     justify-content: center;
-    text-align-last: center;
+    text-align: center;
 
 
 }
@@ -186,7 +190,7 @@ img {
     height: fit-content;
     padding: 10;
     margin: 5;
-    justify-content: space-around;
+    justify-content: center;
     display: flex;
     flex-wrap: wrap;
 }
@@ -198,7 +202,11 @@ img {
     width: 200px;
     height: 120px;
     justify-content: space-around;
-    margin-top: 20px;
+    margin-inline: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+    
 }
 
 
@@ -224,7 +232,7 @@ footer {
 @media only screen and (max-width: 1176px) {
     .pieDePagina {
         font-size: 400%;
-        ;
+        
 
 
     }
@@ -232,10 +240,14 @@ footer {
 
 @media only screen and (max-width: 863px) {
     .pieDePagina {
-        font-size: 200%;
-        ;
-
-
+        font-size: 300%;
+    
+    }
+}
+@media only screen and (max-width: 611px) {
+    .pieDePagina {
+        font-size: 250%;
+    
     }
 }
 
@@ -308,9 +320,15 @@ footer {
 @media only screen and (max-width: 932px) {
     .logo {
         font-size: 30px;
+    }
 
-
-
+}
+@media only screen and (max-width: 600px) {
+    .logo {
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
 }
@@ -338,8 +356,19 @@ footer {
 @media only screen and (max-width: 932px) {
     .logo2 {
         font-size: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
+    }
 
+}
+@media only screen and (max-width: 600px) {
+    .logo2 {
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
     }
 
@@ -490,18 +519,22 @@ footer {
     padding: 2px;
     background-size: cover;
     background-position: bottom;
-    color: #ffffff00
+    color: #f5f1f100;
+    
 }
 
-#item1:hover {
+#item1 span:hover {
 
-
+    background-color: #0000006b;
     transition: 1s;
     color: rgb(248, 242, 242);
     text-shadow: 1px 1px 2px rgb(7, 7, 0);
-    font-size: 18px;
+    font-size: smaller;
     text-align: center;
+    
+
 }
+
 
 #item2 {
     background-image: url(../imagenes/aventura/3aventura600x800.jpeg);
@@ -520,13 +553,13 @@ footer {
     color: #ffffff00
 }
 
-#item2:hover {
+#item2 span:hover {
 
-
+    background-color: #0000006b;
     transition: 1s;
-    color: black;
-    text-shadow: 1px 1px 2px rgb(243, 243, 239);
-    font-size: 18px;
+    color: rgb(248, 242, 242);
+    text-shadow: 1px 1px 2px rgb(7, 7, 0);
+    font-size: smaller;
     text-align: center;
 }
 
@@ -550,13 +583,13 @@ footer {
     color: #ffffff00
 }
 
-#item3:hover {
+#item3 span:hover {
 
-
+    background-color: #0000006b;
     transition: 1s;
-    color: black;
-    text-shadow: 1px 1px 2px rgb(243, 243, 239);
-    font-size: 18px;
+    color: rgb(248, 242, 242);
+    text-shadow: 1px 1px 2px rgb(7, 7, 0);
+    font-size: smaller;
     text-align: center;
 }
 
@@ -581,13 +614,13 @@ footer {
     color: #ffffff00
 }
 
-#item5:hover {
+#item5 span:hover {
 
-
+    background-color: #0000006b;
     transition: 1s;
-    color: black;
-    text-shadow: 1px 1px 2px rgb(243, 243, 239);
-    font-size: 18px;
+    color: rgb(248, 242, 242);
+    text-shadow: 1px 1px 2px rgb(7, 7, 0);
+    font-size: smaller;
     text-align: center;
 }
 
@@ -610,13 +643,13 @@ footer {
     color: #ffffff00
 }
 
-#item4:hover {
+#item4 span:hover {
 
-
+    background-color: #0000006b;
     transition: 1s;
-    color: black;
-    text-shadow: 1px 1px 2px rgb(243, 243, 239);
-    font-size: 18px;
+    color: rgb(248, 242, 242);
+    text-shadow: 1px 1px 2px rgb(7, 7, 0);
+    font-size: smaller;
     text-align: center;
 }
 
@@ -801,13 +834,23 @@ footer {
 
 
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (max-width: 960px) {
     h1 {
-        background: rgb(1, 192, 176);
-
-
+        background: rgb(236, 157, 10);
+        font-size: 500%;
     }
-
+}
+@media only screen and (max-width: 800px) {
+    h1 {
+        background: rgb(63, 36, 212);
+        font-size: 400%;
+    }
+}
+@media only screen and (max-width: 650px) {
+    h1 {
+        background: rgb(80, 231, 219);
+        font-size: 280%;
+    }
 }
 
 @media only screen and (min-width: 1000px) {
@@ -830,14 +873,7 @@ footer {
     }
 }
 
-@media screen and (max-width: 700px) {
-    .logo2 {
-        font-size: 2rem;
-    }
 
-
-
-}
 
 
 

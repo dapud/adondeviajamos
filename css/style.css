@@ -92,31 +92,36 @@ img {
           justify-content: center;
 }
 
+/* .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+/* 
 .menuInicial li {
-  display: inline;
-  text-transform: capitalize;
-  font-size: 15px;
-  color: #e6c0a5;
-  width: auto;
-  border: 5px solid #0b0f0b;
-  padding: 10px;
-  margin: 10px;
-  height: -webkit-min-content;
-  height: -moz-min-content;
-  height: min-content;
-  background-color: azure;
-}
+    display: inline;
+    text-transform: capitalize;
+    font-size: 15px;
+    color: rgb(230, 192, 165);
+    width: auto;
+    border: 5px solid rgb(11, 15, 11);
+    padding: 10px;
+    margin: 10px;
+    height: min-content;
+    background-color: azure;
 
+
+
+} */
 .articulos {
   width: 100%;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  background: #3ae256;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  text-align-last: center;
+  text-align: center;
 }
 
 .articulo1 {
@@ -160,8 +165,9 @@ img {
   height: fit-content;
   padding: 10;
   margin: 5;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -174,7 +180,9 @@ img {
   height: 120px;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  margin-top: 20px;
+  margin-inline: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 footer {
@@ -203,7 +211,13 @@ footer {
 
 @media only screen and (max-width: 863px) {
   .pieDePagina {
-    font-size: 200%;
+    font-size: 300%;
+  }
+}
+
+@media only screen and (max-width: 611px) {
+  .pieDePagina {
+    font-size: 250%;
   }
 }
 
@@ -268,6 +282,21 @@ footer {
   }
 }
 
+@media only screen and (max-width: 600px) {
+  .logo {
+    font-size: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
 .logo:hover {
   -webkit-transform: translate(7%);
           transform: translate(7%);
@@ -288,6 +317,30 @@ footer {
 @media only screen and (max-width: 932px) {
   .logo2 {
     font-size: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .logo2 {
+    font-size: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 
@@ -422,15 +475,16 @@ footer {
   padding: 2px;
   background-size: cover;
   background-position: bottom;
-  color: #ffffff00;
+  color: #f5f1f100;
 }
 
-#item1:hover {
+#item1 span:hover {
+  background-color: #0000006b;
   -webkit-transition: 1s;
   transition: 1s;
   color: #f8f2f2;
   text-shadow: 1px 1px 2px #070700;
-  font-size: 18px;
+  font-size: smaller;
   text-align: center;
 }
 
@@ -461,12 +515,13 @@ footer {
   color: #ffffff00;
 }
 
-#item2:hover {
+#item2 span:hover {
+  background-color: #0000006b;
   -webkit-transition: 1s;
   transition: 1s;
-  color: black;
-  text-shadow: 1px 1px 2px #f3f3ef;
-  font-size: 18px;
+  color: #f8f2f2;
+  text-shadow: 1px 1px 2px #070700;
+  font-size: smaller;
   text-align: center;
 }
 
@@ -497,12 +552,13 @@ footer {
   color: #ffffff00;
 }
 
-#item3:hover {
+#item3 span:hover {
+  background-color: #0000006b;
   -webkit-transition: 1s;
   transition: 1s;
-  color: black;
-  text-shadow: 1px 1px 2px #f3f3ef;
-  font-size: 18px;
+  color: #f8f2f2;
+  text-shadow: 1px 1px 2px #070700;
+  font-size: smaller;
   text-align: center;
 }
 
@@ -533,12 +589,13 @@ footer {
   color: #ffffff00;
 }
 
-#item5:hover {
+#item5 span:hover {
+  background-color: #0000006b;
   -webkit-transition: 1s;
   transition: 1s;
-  color: black;
-  text-shadow: 1px 1px 2px #f3f3ef;
-  font-size: 18px;
+  color: #f8f2f2;
+  text-shadow: 1px 1px 2px #070700;
+  font-size: smaller;
   text-align: center;
 }
 
@@ -569,12 +626,13 @@ footer {
   color: #ffffff00;
 }
 
-#item4:hover {
+#item4 span:hover {
+  background-color: #0000006b;
   -webkit-transition: 1s;
   transition: 1s;
-  color: black;
-  text-shadow: 1px 1px 2px #f3f3ef;
-  font-size: 18px;
+  color: #f8f2f2;
+  text-shadow: 1px 1px 2px #070700;
+  font-size: smaller;
   text-align: center;
 }
 
@@ -780,9 +838,24 @@ footer {
   text-align: center;
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (max-width: 960px) {
   h1 {
-    background: #01c0b0;
+    background: #ec9d0a;
+    font-size: 500%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  h1 {
+    background: #3f24d4;
+    font-size: 400%;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  h1 {
+    background: #50e7db;
+    font-size: 280%;
   }
 }
 
@@ -796,12 +869,6 @@ footer {
 @media only screen and (max-width: 300px) {
   .articulo1 {
     background: #ee8906;
-  }
-}
-
-@media screen and (max-width: 700px) {
-  .logo2 {
-    font-size: 2rem;
   }
 }
 
