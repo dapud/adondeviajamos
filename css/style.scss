@@ -435,7 +435,7 @@ footer {
 .combo1__link__imacul--size {
 
 
-    width: 450px;
+    width: 410px;
     height: 300px;
     border-radius: 150px;
 
@@ -448,10 +448,11 @@ footer {
 
 .combo1__textoCultura--color {
 
-    width: 450px;
+    width: 410px;
     height: auto;
 
     font-size: 20px;
+    margin: 10px;
     font-family: cursive;
     text-align: center;
     align-self: center;
@@ -657,9 +658,7 @@ footer {
 
 .contenedorRelax {
 
-    /* width: 100%;
-    height: 100%; */
-    /* background-color: rgb(240, 239, 243); */
+    
     display: grid;
     grid-template-columns: 33.33% 33.33% 33.33%;
     grid-template-rows: 300px 300px 300px;
@@ -683,23 +682,21 @@ footer {
     background-position: bottom;
     border-radius: 20px;
     color: #ffffff00;
-    background-color: #ffffff00;
+    color: #f5f1f100;
     ;
 
 
 
 }
 
-#item6:hover {
+#item6 span:hover {
 
-    width: fit-content;
-
+    background-color: #0000006b;
     transition: 1s;
-    color: black;
-    text-shadow: 2px 2px 5px rgb(240, 240, 236);
-    font-size: 18px;
-    background-color: rgb(220, 233, 233);
-
+    color: rgb(248, 242, 242);
+    text-shadow: 1px 1px 2px rgb(7, 7, 0);
+    font-size: smaller;
+    text-align: center;
 
 
 }
@@ -725,13 +722,13 @@ footer {
     color: #ffffff00
 }
 
-#item7:hover {
+#item7 span:hover {
 
-
+    background-color: #0000006b;
     transition: 1s;
-    color: black;
-    text-shadow: 2px 2px 2px rgb(243, 243, 239);
-    font-size: 18px;
+    color: rgb(248, 242, 242);
+    text-shadow: 1px 1px 2px rgb(7, 7, 0);
+    font-size: smaller;
     text-align: center;
 
 
@@ -758,13 +755,13 @@ footer {
     color: #ffffff00
 }
 
-#item8:hover {
+#item8 span:hover {
 
-
+    background-color: #0000006b;
     transition: 1s;
-    color: black;
-    text-shadow: 2px 2px 2px rgb(243, 243, 239);
-    font-size: 18px;
+    color: rgb(248, 242, 242);
+    text-shadow: 1px 1px 2px rgb(7, 7, 0);
+    font-size: smaller;
     text-align: center;
 
 
@@ -788,13 +785,13 @@ footer {
     color: #ffffff00
 }
 
-#item9:hover {
+#item9 span:hover {
 
-
+    background-color: #0000006b;
     transition: 1s;
-    color: black;
-    text-shadow: 2px 2px 5px rgb(243, 243, 239);
-    font-size: 18px;
+    color: rgb(248, 242, 242);
+    text-shadow: 1px 1px 2px rgb(7, 7, 0);
+    font-size: smaller;
     text-align: center;
 
 
@@ -820,13 +817,13 @@ footer {
     color: #ffffff00
 }
 
-#item10:hover {
+#item10 span:hover {
 
-
+    background-color: #0000006b;
     transition: 1s;
-    color: black;
-    text-shadow: 3px 3px 5px rgb(243, 243, 239);
-    font-size: 18px;
+    color: rgb(248, 242, 242);
+    text-shadow: 1px 1px 2px rgb(7, 7, 0);
+    font-size: smaller;
     text-align: center;
 }
 
@@ -849,9 +846,16 @@ footer {
 @media only screen and (max-width: 650px) {
     h1 {
         background: rgb(80, 231, 219);
-        font-size: 280%;
+        font-size: 300%;
     }
 }
+@media only screen and (max-width: 490px) {
+    h1 {
+        background: rgb(80, 231, 219);
+        font-size: 250%;
+    }
+}
+
 
 @media only screen and (min-width: 1000px) {
     h2 {
@@ -900,13 +904,173 @@ footer {
     font-size: 50px;
 }
 
+.lead {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 600%;
+    text-align: center;
+    
+}
+@media only screen and (max-width: 932px) {
+    .lead {
+        font-size: 500%;
+        
+
+
+    }
+}
+@media only screen and (max-width: 761px) {
+    .lead {
+        font-size: 400%;
+        
+
+
+    }
+}
+@media only screen and (max-width: 650px) {
+    .lead {
+        font-size: 300%;
+        
+
+
+    }
+}
+@media only screen and (max-width: 490px) {
+    .lead {
+        font-size: 200%;
+        
+
+
+    }
+}
+
 
 .cajon {
     display: flex block;
     width: 100%;
-    height: 120px;
-    background-color: blue;
+    height: 100%;
+    background-color: rgb(28, 99, 104);
     justify-content: center;
+}
+
+
+.cajonRoman {
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../imagenes/romantica/romanback.jpeg);
+    
+    
+}
+.cajonesRomanticos{
+    width: fit-content;
+    height: fit-content;
+    
+    color: aqua;
+
+  
+    justify-content: center;
+    align-items: center;
+    display: inline-table;
+    text-align: center;
+    text-align-last: center;
+
+}
+
+.imaRoman {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.imaRoman2{
+
+    width: 700px;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: $align;
+} 
+@media only screen and (max-width: 650px) {
+    .imaRoman2 {
+       width: 500px;
+        
+
+
+    }
+}
+@media only screen and (max-width: 540px) {
+    .imaRoman2 {
+       width: 300px;
+        
+
+
+    }
+}
+
+.roma1{
+    background-color: rgb(104, 3, 3);
+    width: 250px;
+    height: 520px;
+    border: 5px solid rgb(1, 94, 1);
+    padding: 10px;
+    margin: 10px;
+    display: inline-table;
+    text-align: center;
+    text-align-last: center;
+    
+}
+.roma2{
+    background-color: rgb(104, 3, 3);
+    width: 250px;
+    height: 520px;
+    border: 5px solid rgb(1, 94, 1);
+    padding: 10px;
+    margin: 10px;
+    display: inline-table;
+    text-align: center;
+    text-align-last: center;
+}
+.roma3{
+    background-color: rgb(104, 3, 3);
+    width: 250px;
+    height: 520px;
+    border: 5px solid rgb(1, 94, 1);
+    padding: 10px;
+    margin: 10px;
+    display: inline-table;
+    text-align: center;
+    text-align-last: center;
+}
+.roma4{
+    background-color: rgb(104, 3, 3);
+    width: 250px;
+    height: 520px;
+    border: 5px solid rgb(1, 94, 1);
+    padding: 10px;
+    margin: 10px;
+    display: inline-table;
+    text-align: center;
+    text-align-last: center;
+}
+
+.carrusel2{
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+}
+.carru2 {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
 .close {
@@ -1030,3 +1194,5 @@ h5{
     display: flex;
     justify-content: center;
 }
+
+
