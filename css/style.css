@@ -896,6 +896,8 @@ footer {
           align-items: center;
   font-size: 600%;
   text-align: center;
+  -webkit-filter: drop-shadow(2px 4px 6px black);
+          filter: drop-shadow(2px 4px 6px black);
 }
 
 @media only screen and (max-width: 932px) {
