@@ -961,7 +961,7 @@ h5{
     align-items: center;
     
 }
-.tarjeta-visa,
+.tarjeta-visa, 
 .tarjeta-mastercard,
 .tarjeta-amex {
     
@@ -974,10 +974,7 @@ h5{
         border-radius: 13px;
 
         background-color: rgb(29, 4, 119);
-       
-
-   
-        
+             
     
 }
 
@@ -987,12 +984,43 @@ h5{
   
      
    background-image: url("../imagenes/diversion/#{$tarjeta}.jpeg");
-     background-size:contain;
+     background-size:cover;
      background-position: center; 
  
     }
     
 }
+
+@media only screen and (max-width: 856px) {.tarjeta-visa, 
+.tarjeta-mastercard,
+.tarjeta-amex {
+    
+     
+        width: 200px;
+        height: 140px;
+
+        border-radius: 13px;
+
+        background-color: rgb(29, 4, 119);}
+             
+    
+}
+@media only screen and (max-width: 620px) {.tarjeta-visa, 
+    .tarjeta-mastercard,
+    .tarjeta-amex {
+        
+         
+            width: 150px;
+            height: 80px;
+    
+            border-radius: 13px;
+    
+            background-color: rgb(29, 4, 119);}
+                 
+        
+    }
+
+
 
 
 

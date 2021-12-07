@@ -1002,20 +1002,42 @@ h5 {
 
 .tarjeta-visa {
   background-image: url("../imagenes/diversion/visa.jpeg");
-  background-size: contain;
+  background-size: cover;
   background-position: center;
 }
 
 .tarjeta-mastercard {
   background-image: url("../imagenes/diversion/mastercard.jpeg");
-  background-size: contain;
+  background-size: cover;
   background-position: center;
 }
 
 .tarjeta-amex {
   background-image: url("../imagenes/diversion/amex.jpeg");
-  background-size: contain;
+  background-size: cover;
   background-position: center;
+}
+
+@media only screen and (max-width: 856px) {
+  .tarjeta-visa,
+  .tarjeta-mastercard,
+  .tarjeta-amex {
+    width: 200px;
+    height: 140px;
+    border-radius: 13px;
+    background-color: #1d0477;
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  .tarjeta-visa,
+  .tarjeta-mastercard,
+  .tarjeta-amex {
+    width: 150px;
+    height: 80px;
+    border-radius: 13px;
+    background-color: #1d0477;
+  }
 }
 
 /* seccion Cultura */
