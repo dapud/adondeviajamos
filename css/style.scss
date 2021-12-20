@@ -407,7 +407,7 @@ footer {
 
 .combo1--background {
 
-    background-color: rgb(10, 170, 170);
+    background-color: rgb(222, 243, 243);
 
 }
 
@@ -665,11 +665,8 @@ footer {
     border-radius: 20px;
     color: #ffffff00;
     color: #f5f1f100;
-    ;
-
-
-
 }
+
 
 #item6 span:hover {
 
@@ -837,6 +834,12 @@ footer {
         font-size: 250%;
     }
 }
+@media only screen and (max-width: 410px) {
+    h1 {
+        background: rgb(80, 231, 219);
+        font-size: 194%;
+    }
+}
 
 
 @media only screen and (min-width: 1000px) {
@@ -890,7 +893,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 600%;
+    font-size: 300%;
     text-align: center;
     filter: drop-shadow(2px 4px 6px black);
     
@@ -933,7 +936,7 @@ footer {
     display: flex block;
     width: 100%;
     height: 100%;
-    background-color: rgb(28, 99, 104);
+    background-color: (#37c1cb);
     justify-content: center;
 }
 
@@ -978,10 +981,17 @@ footer {
     align-items: center;
     
 } 
-.modalRoma{
+.texRoman {
+
+    text-align: center;
+}
+
+/* .modalRoma{
 
     color: red;
-}
+} */
+
+
 @media only screen and (max-width: 650px) {
     .imaRoman2 {
        width: 500px;
