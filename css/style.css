@@ -35,22 +35,21 @@ h1 {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  background: #be0a64;
-  -webkit-filter: invert(1);
-          filter: invert(1);
+  background: #13929b;
+  /*  filter: invert(1); */
   margin: auto;
   font-size: 600%;
   color: #080807;
   border-radius: 10px;
-  text-shadow: 10px 20px 30px beige;
+  border: 1px #0a0101 solid;
+  text-shadow: 1px 0px 20px beige;
   -webkit-transition-duration: 1s;
           transition-duration: 1s;
 }
 
 h1:hover {
   font-size: 650%;
-  -webkit-filter: blur(px);
-          filter: blur(px);
+  border: 1px red;
 }
 
 h2 {
@@ -104,10 +103,10 @@ img {
 }
 
 .articulo1 {
-  background-color: #e97272;
+  background-color: #8cb0c1;
   width: 250px;
   height: 520px;
-  border: 5px solid #015e01;
+  border: 2px solid #6e0d25;
   padding: 10px;
   margin: 10px;
   display: inline-table;
@@ -132,8 +131,8 @@ img {
   margin: 1px;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  background-image: -webkit-gradient(linear, right top, left top, from(red), color-stop(blue), to(red));
-  background-image: linear-gradient(to left, red, blue, red);
+  background-image: -webkit-gradient(linear, right top, left top, from(#0dcaf0), color-stop(rgba(105, 20, 80, 0.103)), to(#0dcaf0));
+  background-image: linear-gradient(to left, #0dcaf0, rgba(105, 20, 80, 0.103), #0dcaf0);
 }
 
 .imagenesEscapadas {
@@ -182,15 +181,17 @@ footer {
   transition: 1s;
 }
 
-@media only screen and (max-width: 1176px) {
+@media only screen and (max-width: 1260px) {
   .pieDePagina {
     font-size: 400%;
+    padding: 4%;
   }
 }
 
 @media only screen and (max-width: 863px) {
   .pieDePagina {
     font-size: 300%;
+    padding: 10%;
   }
 }
 
@@ -201,54 +202,55 @@ footer {
 }
 
 .A {
-  color: #630848;
+  color: #61cfd2;
 }
 
 .A:hover:hover {
-  color: darkturquoise;
-  -webkit-transition: 1s;
-  transition: 1s;
+  color: firebrick;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
 }
 
 .donde {
-  color: darkorange;
+  color: #61cfd2;
 }
 
 .donde:hover {
-  color: darkturquoise;
-  -webkit-transition: 1s;
-  transition: 1s;
+  color: firebrick;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
 }
 
 .viajamos {
-  color: darkturquoise;
+  color: #61cfd2;
 }
 
 .viajamos:hover {
   color: firebrick;
-  -webkit-transition: 1s;
-  transition: 1s;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
 }
 
 .tituloFinal {
   width: 70%;
   height: 100%;
   float: right;
-  background-color: #04b68f;
+  background-color: #1e444e;
   font-size: 20;
+  padding: 2%;
 }
 
 .tituloFinal:hover {
-  background-color: #f7750b;
-  -webkit-transition: 2s;
-  transition: 2s;
+  background-color: #b10f2e;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
   text-shadow: cornsilk 0px 0px 6px;
 }
 
 .logo {
   width: 30%;
   height: 50%;
-  background-color: crimson;
+  background-color: #6e0d25;
   text-align: center;
   font-size: 50px;
   font-style: italic;
@@ -336,7 +338,7 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: #080c0c;
+  background-image: radial-gradient(#6c0202, #1b2b6e);
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -822,14 +824,14 @@ footer {
 
 @media only screen and (max-width: 960px) {
   h1 {
-    background: #ec9d0a;
+    background: #026e26;
     font-size: 500%;
   }
 }
 
 @media only screen and (max-width: 800px) {
   h1 {
-    background: #3f24d4;
+    background: #069aa5;
     font-size: 400%;
   }
 }

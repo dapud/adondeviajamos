@@ -24,6 +24,7 @@ $justi:center;
     font-size: $size * 3;
     justify-content: $justi; 
     align-items: $align;
+    
 }
 
 
@@ -36,21 +37,17 @@ body {
 
 
 
-
-
-
-
-
 h1 {
     width: fit-content;
     height: fit-content;
-    background: rgb(190, 10, 100);
-    filter: invert(1);
+    background: rgb(19, 146, 155);
+   /*  filter: invert(1); */
     margin: auto;
     font-size: 600%;
     color: rgb(8, 8, 7);
     border-radius: 10px;
-    text-shadow: 10px 20px 30px beige;
+    border: 1px rgb(10, 1, 1) solid;
+    text-shadow: 1px 0px 20px beige;
     
     transition-duration: 1s;
 
@@ -59,7 +56,8 @@ h1 {
 
 h1:hover {
     font-size: 650%;
-    filter: blur(px);
+    
+    border: 1px red;
 
 }
 
@@ -128,10 +126,10 @@ img {
 
 
 .articulo1 {
-    background-color: rgb(233, 114, 114);
+    background-color:#8cb0c1;
     width: 250px;
     height: 520px;
-    border: 5px solid rgb(1, 94, 1);
+    border: 2px solid rgb(110, 13, 37);
     padding: 10px;
     margin: 10px;
     display: inline-table;
@@ -156,7 +154,7 @@ img {
     margin: 1px;
 
     justify-content: space-around;
-    background-image: linear-gradient(to left, red, blue, red);
+    background-image: linear-gradient(to left,#0dcaf0, rgba(105, 20, 80, 0.103), #0dcaf0);
 
 
 }
@@ -208,10 +206,10 @@ footer {
     transition: 1s;
 }
 
-@media only screen and (max-width: 1176px) {
+@media only screen and (max-width: 1260px) {
     .pieDePagina {
         font-size: 400%;
-        
+        padding: 4%;
 
 
     }
@@ -220,6 +218,7 @@ footer {
 @media only screen and (max-width: 863px) {
     .pieDePagina {
         font-size: 300%;
+        padding: 10%;
     
     }
 }
@@ -232,34 +231,34 @@ footer {
 
 .A {
 
-    color: rgb(99, 8, 72);
+    color: #61cfd2;
 }
 
 .A:hover:hover {
-    color: darkturquoise;
-    transition: 1s;
+    color: firebrick;
+    transition: 0.2s;
 }
 
 
 
 .donde {
 
-    color: darkorange;
+    color: #61cfd2;
 }
 
 .donde:hover {
-    color: darkturquoise;
-    transition: 1s;
+    color: firebrick;
+    transition: 0.2s;
 }
 
 .viajamos {
 
-    color: darkturquoise;
+    color: #61cfd2;
 }
 
 .viajamos:hover {
     color: firebrick;
-    transition: 1s;
+    transition: 0.2s;
 
 
 }
@@ -269,16 +268,18 @@ footer {
     width: 70%;
     height: 100%;
     float: right;
-    background-color: rgb(4, 182, 143);
+    background-color: #1e444e;
     font-size: 20;
+    padding: 2%;
 
 }
 
 .tituloFinal:hover {
 
-    background-color: rgb(247, 117, 11);
-    transition: 2s;
+    background-color: rgb(177, 15, 46);
+    transition: 0.5s;
     text-shadow: cornsilk 0px 0px 6px;
+    
 
 
 
@@ -288,7 +289,7 @@ footer {
 
     width: 30%;
     height: 50%;
-    background-color: crimson;
+    background-color: rgb(110, 13, 37);
     text-align: center;
 
     font-size: 50px;
@@ -365,7 +366,7 @@ footer {
     width: 100%;
     height: 50%;
     display: flex;
-    background-color: rgb(8, 12, 12);
+    background-image: radial-gradient(#6c0202, #1b2b6e);
     align-items: center;
 
     font-size: 50px;
@@ -813,13 +814,13 @@ footer {
 
 @media only screen and (max-width: 960px) {
     h1 {
-        background: rgb(236, 157, 10);
+        background: rgb(2, 110, 38);
         font-size: 500%;
     }
 }
 @media only screen and (max-width: 800px) {
     h1 {
-        background: rgb(63, 36, 212);
+        background: rgb(6, 154, 165);
         font-size: 400%;
     }
 }
