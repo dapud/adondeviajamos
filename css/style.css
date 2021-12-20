@@ -960,7 +960,7 @@ footer {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  color: aqua;
+  color: #050505;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -1000,6 +1000,10 @@ footer {
           align-items: center;
 }
 
+.modalRoma {
+  color: red;
+}
+
 @media only screen and (max-width: 650px) {
   .imaRoman2 {
     width: 500px;
@@ -1013,10 +1017,10 @@ footer {
 }
 
 .roma1 {
-  background-color: #680303;
+  background-color: #8cb0c1;
   width: 250px;
   height: 520px;
-  border: 5px solid #015e01;
+  border: 2px solid #6e0d25;
   padding: 10px;
   margin: 10px;
   display: inline-table;
@@ -1025,10 +1029,10 @@ footer {
 }
 
 .roma2 {
-  background-color: #680303;
+  background-color: #8cb0c1;
   width: 250px;
   height: 520px;
-  border: 5px solid #015e01;
+  border: 2px solid #6e0d25;
   padding: 10px;
   margin: 10px;
   display: inline-table;
@@ -1037,10 +1041,10 @@ footer {
 }
 
 .roma3 {
-  background-color: #680303;
+  background-color: #8cb0c1;
   width: 250px;
   height: 520px;
-  border: 5px solid #015e01;
+  border: 2px solid #6e0d25;
   padding: 10px;
   margin: 10px;
   display: inline-table;
@@ -1049,10 +1053,10 @@ footer {
 }
 
 .roma4 {
-  background-color: #680303;
+  background-color: #8cb0c1;
   width: 250px;
   height: 520px;
-  border: 5px solid #015e01;
+  border: 2px solid #6e0d25;
   padding: 10px;
   margin: 10px;
   display: inline-table;
