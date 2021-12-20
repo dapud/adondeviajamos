@@ -383,21 +383,38 @@ footer {
       justify-content: space-around;
 }
 
+.caja1 {
+  text-align: center;
+}
+
+.caja2 {
+  text-align: center;
+}
+
 .combo1--background {
-  background-color: #def3f3;
+  background-color: #477998b0;
+  border: 1px solid black;
 }
 
 .combo1__link__imacul--size {
   width: 410px;
   height: 300px;
-  border-radius: 150px;
+  border-radius: 25%;
+}
+
+@media only screen and (max-width: 425px) {
+  .combo1__link__imacul--size {
+    width: 310px;
+    height: 300px;
+    border-radius: 25%;
+  }
 }
 
 .combo1__textoCultura--color {
   width: 410px;
   height: auto;
   font-size: 20px;
-  margin: 10px;
+  margin: 20px;
   font-family: cursive;
   text-align: center;
   -ms-flex-item-align: center;
@@ -405,29 +422,68 @@ footer {
       align-self: center;
 }
 
-.combo1 {
-  width: 500px;
+@media only screen and (max-width: 450px) {
+  .combo1__textoCultura--color {
+    width: 380px;
+    height: auto;
+    font-size: 17px;
+    margin: 30px;
+    font-family: cursive;
+    text-align: center;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
 }
 
+@media only screen and (max-width: 420px) {
+  .combo1__textoCultura--color {
+    width: 310px;
+    height: auto;
+    font-size: 12px;
+    margin: 40px;
+    font-family: cursive;
+    text-align: center;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+}
+
+/* .combo1 {
+
+    width: 500px;
+    height: fit-content;
+
+
+} */
+/* 
 .textoCultura {
-  width: 500px;
-  margin: 2px 2px 2px 2px;
-}
 
+    width: 400px;
+    margin: 2px 2px 2px 2px;
+    text-align: center;
+} */
 .combo2--border {
-  border: black solid;
+  border: 1px black solid;
+  background-color: #477998b0;
 }
 
 .combo2 {
   width: 500px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
 .combo3--background {
-  background-color: blueviolet;
+  background-color: #477998b0;
+  border: 1px solid black;
 }
 
 .combo4--border {
-  border: chartreuse solid;
+  border: 1px #0b0f06 solid;
+  background-color: #477998b0;
 }
 
 .item {
