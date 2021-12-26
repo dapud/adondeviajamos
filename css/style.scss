@@ -9,22 +9,22 @@ $ancho2:30%;
 $alto: 60%;
 $color1: rgb(158, 17, 116);
 $color2:rgb(9, 162, 209);
-$size: 10px ;
+$size: 10px;
 $align: center;
-$justi:center;  
+$justi:center;
 
 
 
 
-.derechos{
+.derechos {
     display: flex;
     width: $ancho + 30% - $ancho2;
     height: $alto - 10%;
     color: $color1 - rgb(226, 9, 190);
     font-size: $size * 3;
-    justify-content: $justi; 
+    justify-content: $justi;
     align-items: $align;
-    
+
 }
 
 
@@ -41,14 +41,13 @@ h1 {
     width: fit-content;
     height: fit-content;
     background: rgb(19, 146, 155);
-   /*  filter: invert(1); */
     margin: auto;
     font-size: 600%;
     color: rgb(8, 8, 7);
     border-radius: 10px;
     border: 1px rgb(10, 1, 1) solid;
     text-shadow: 1px 0px 20px beige;
-    
+
     transition-duration: 1s;
 
 }
@@ -56,9 +55,7 @@ h1 {
 
 h1:hover {
     font-size: 650%;
-    
     border: 1px red;
-
 }
 
 
@@ -97,12 +94,6 @@ h4 {
 }
 
 
-
-
-
-
-
-
 img {
 
     width: 220px;
@@ -126,7 +117,7 @@ img {
 
 
 .articulo1 {
-    background-color:#8cb0c1;
+    background-color: #8cb0c1;
     width: 250px;
     height: 520px;
     border: 2px solid rgb(110, 13, 37);
@@ -154,7 +145,7 @@ img {
     margin: 1px;
 
     justify-content: space-around;
-    background-image: linear-gradient(to left,#0dcaf0, rgba(105, 20, 80, 0.103), #0dcaf0);
+    background-image: linear-gradient(to left, #0dcaf0, rgba(105, 20, 80, 0.103), #0dcaf0);
 
 
 }
@@ -181,8 +172,8 @@ img {
     margin-inline: auto;
     margin-top: 10px;
     margin-bottom: 10px;
-    
-    
+
+
 }
 
 
@@ -192,7 +183,7 @@ footer {
 
     background-color: rgb(214, 208, 157);
     text-align: center;
-    
+
 
 }
 
@@ -219,13 +210,14 @@ footer {
     .pieDePagina {
         font-size: 300%;
         padding: 10%;
-    
+
     }
 }
+
 @media only screen and (max-width: 611px) {
     .pieDePagina {
         font-size: 250%;
-    
+
     }
 }
 
@@ -279,11 +271,10 @@ footer {
     background-color: rgb(177, 15, 46);
     transition: 0.5s;
     text-shadow: cornsilk 0px 0px 6px;
-    
-
-
 
 }
+
+
 
 .logo {
 
@@ -303,6 +294,7 @@ footer {
     }
 
 }
+
 @media only screen and (max-width: 600px) {
     .logo {
         font-size: 20px;
@@ -343,6 +335,7 @@ footer {
     }
 
 }
+
 @media only screen and (max-width: 600px) {
     .logo2 {
         font-size: 20px;
@@ -404,18 +397,19 @@ footer {
 }
 
 .caja1 {
-   
+
     text-align: center;
 }
+
 .caja2 {
-   
+
     text-align: center;
 }
 
 
 .combo1--background {
 
-    background-color:#477998b0;
+    background-color: #477998b0;
     border: 1px solid black;
 }
 
@@ -423,13 +417,14 @@ footer {
 .combo1__link__imacul--size {
     width: 410px;
     height: 300px;
-    border-radius: 25%;  
+    border-radius: 25%;
 }
+
 @media only screen and (max-width: 425px) {
     .combo1__link__imacul--size {
         width: 310px;
         height: 300px;
-        border-radius: 25%;  
+        border-radius: 25%;
     }
 }
 
@@ -447,47 +442,34 @@ footer {
 
 @media only screen and (max-width: 450px) {
     .combo1__textoCultura--color {
-    width: 380px;
-    height: auto;
-    font-size: 17px;
-    margin: 30px;
-    font-family: cursive;
-    text-align: center;
-    align-self: center;
+        width: 380px;
+        height: auto;
+        font-size: 17px;
+        margin: 30px;
+        font-family: cursive;
+        text-align: center;
+        align-self: center;
 
     }
 }
+
 @media only screen and (max-width: 420px) {
     .combo1__textoCultura--color {
-    width: 310px;
-    height: auto;
-    font-size: 12px;
-    margin: 40px;
-    font-family: cursive;
-    text-align: center;
-    align-self: center;
+        width: 310px;
+        height: auto;
+        font-size: 12px;
+        margin: 40px;
+        font-family: cursive;
+        text-align: center;
+        align-self: center;
 
     }
 }
 
-/* .combo1 {
-
-    width: 500px;
-    height: fit-content;
-
-
-} */
-/* 
-.textoCultura {
-
-    width: 400px;
-    margin: 2px 2px 2px 2px;
-    text-align: center;
-} */
 
 .combo2--border {
     border: 1px black solid;
-    background-color:#477998b0;
+    background-color: #477998b0;
 }
 
 .combo2 {
@@ -501,13 +483,13 @@ footer {
 
 .combo3--background {
 
-    background-color:#477998b0;
+    background-color: #477998b0;
     border: 1px solid black;
 }
 
 .combo4--border {
     border: 1px rgb(11, 15, 6) solid;
-    background-color:#477998b0;
+    background-color: #477998b0;
 }
 
 .item {
@@ -536,7 +518,7 @@ footer {
     background-size: cover;
     background-position: bottom;
     color: #f5f1f100;
-    
+
 }
 
 #item1 span:hover {
@@ -547,8 +529,8 @@ footer {
     text-shadow: 1px 1px 2px rgb(7, 7, 0);
     font-size: smaller;
     text-align: center;
-    
-    
+
+
 
 }
 
@@ -674,7 +656,7 @@ footer {
 
 .contenedorRelax {
 
-    
+
     display: grid;
     grid-template-columns: 33.33% 33.33% 33.33%;
     grid-template-rows: 300px 300px 300px;
@@ -850,24 +832,28 @@ footer {
         font-size: 500%;
     }
 }
+
 @media only screen and (max-width: 800px) {
     h1 {
         background: rgb(6, 154, 165);
         font-size: 400%;
     }
 }
+
 @media only screen and (max-width: 650px) {
     h1 {
         background: rgb(80, 231, 219);
         font-size: 300%;
     }
 }
+
 @media only screen and (max-width: 490px) {
     h1 {
         background: rgb(80, 231, 219);
         font-size: 250%;
     }
 }
+
 @media only screen and (max-width: 410px) {
     h1 {
         background: rgb(80, 231, 219);
@@ -930,36 +916,40 @@ footer {
     font-size: 300%;
     text-align: center;
     filter: drop-shadow(2px 4px 6px black);
-    
+
 }
+
 @media only screen and (max-width: 932px) {
     .lead {
         font-size: 500%;
-        
+
 
 
     }
 }
+
 @media only screen and (max-width: 761px) {
     .lead {
         font-size: 400%;
-        
+
 
 
     }
 }
+
 @media only screen and (max-width: 650px) {
     .lead {
         font-size: 300%;
-        
+
 
 
     }
 }
+
 @media only screen and (max-width: 490px) {
     .lead {
         font-size: 200%;
-        
+
 
 
     }
@@ -982,16 +972,17 @@ footer {
     justify-content: center;
     align-items: center;
     background-image: url(../imagenes/romantica/romanback.jpeg);
-    
-    
+
+
 }
-.cajonesRomanticos{
+
+.cajonesRomanticos {
     width: fit-content;
     height: fit-content;
-    
+
     color: rgb(5, 5, 5);
 
-  
+
     justify-content: center;
     align-items: center;
     display: inline-table;
@@ -1005,46 +996,41 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-} 
-.imaRoman2{
+}
+
+.imaRoman2 {
 
     width: 700px;
     height: fit-content;
     display: flex;
     justify-content: center;
     align-items: center;
-    
-} 
+
+}
+
 .texRoman {
 
     text-align: center;
 }
 
-/* .modalRoma{
-
-    color: red;
-} */
-
 
 @media only screen and (max-width: 650px) {
     .imaRoman2 {
-       width: 500px;
-        
+        width: 500px;
+
 
 
     }
 }
+
 @media only screen and (max-width: 540px) {
     .imaRoman2 {
-       width: 300px;
-        
-
-
+        width: 300px;
     }
 }
 
-.roma1{
-    background-color:#8cb0c1;
+.roma1 {
+    background-color: #8cb0c1;
     width: 250px;
     height: 520px;
     border: 2px solid #6e0d25;
@@ -1053,32 +1039,11 @@ footer {
     display: inline-table;
     text-align: center;
     text-align-last: center;
-    
+
 }
-.roma2{
-    background-color:#8cb0c1;
-    width: 250px;
-    height: 520px;
-    border: 2px solid #6e0d25;
-    padding: 10px;
-    margin: 10px;
-    display: inline-table;
-    text-align: center;
-    text-align-last: center;
-}
-.roma3{
-    background-color:#8cb0c1;
-    width: 250px;
-    height: 520px;
-    border: 2px solid #6e0d25;
-    padding: 10px;
-    margin: 10px;
-    display: inline-table;
-    text-align: center;
-    text-align-last: center;
-}
-.roma4{
-    background-color:#8cb0c1;
+
+.roma2 {
+    background-color: #8cb0c1;
     width: 250px;
     height: 520px;
     border: 2px solid #6e0d25;
@@ -1089,7 +1054,31 @@ footer {
     text-align-last: center;
 }
 
-.carrusel2{
+.roma3 {
+    background-color: #8cb0c1;
+    width: 250px;
+    height: 520px;
+    border: 2px solid #6e0d25;
+    padding: 10px;
+    margin: 10px;
+    display: inline-table;
+    text-align: center;
+    text-align-last: center;
+}
+
+.roma4 {
+    background-color: #8cb0c1;
+    width: 250px;
+    height: 520px;
+    border: 2px solid #6e0d25;
+    padding: 10px;
+    margin: 10px;
+    display: inline-table;
+    text-align: center;
+    text-align-last: center;
+}
+
+.carrusel2 {
     display: flex;
     width: 100%;
     height: 300px;
@@ -1097,6 +1086,7 @@ footer {
     align-items: center;
     background-image: url(../imagenes/romantica/romanback.jpeg);
 }
+
 .carru2 {
     display: flex;
     width: 50%;
@@ -1108,7 +1098,8 @@ footer {
 .close {
     color: rgb(101, 5, 226);
 }
-.cajaCuotas{
+
+.cajaCuotas {
     display: flex;
     width: 100%;
     height: auto;
@@ -1118,15 +1109,15 @@ footer {
     align-items: center;
 }
 
-h5{
-    
-    
-    height: auto ;
-  
-    
+h5 {
+
+
+    height: auto;
+
+
 }
 
-.tajeta{
+.tajeta {
 
     width: 20px;
     height: 20px;
@@ -1138,9 +1129,9 @@ h5{
 
 @for $i from 1 through 3 {
 
-    .cuotas-#{$i}
-    {    display: flex;
-        width: $i * 8em ;
+    .cuotas-#{$i} {
+        display: flex;
+        width: $i * 8em;
         font-size: $i * 20px;
         justify-content: center;
     }
@@ -1148,83 +1139,86 @@ h5{
 
 .cards {
     display: flex;
-    
+
     width: 100%;
     height: 200px;
     border: rgb(1, 94, 1);
     background-color: rgb(29, 4, 119);
     justify-content: space-around;
     align-items: center;
-    
+
 }
-.tarjeta-visa, 
+
+.tarjeta-visa,
 .tarjeta-mastercard,
 .tarjeta-amex {
-    
 
-      
-       
-        width: 280px;
-        height: 180px;
 
-        border-radius: 13px;
 
-        background-color: rgb(29, 4, 119);
-             
-    
+
+    width: 280px;
+    height: 180px;
+
+    border-radius: 13px;
+
+    background-color: rgb(29, 4, 119);
+
+
 }
 
-@each $tarjeta in visa, mastercard, amex {
-    .tarjeta-#{$tarjeta} 
-    {
-  
-     
-   background-image: url("../imagenes/diversion/#{$tarjeta}.jpeg");
-     background-size:cover;
-     background-position: center; 
- 
+@each $tarjeta in visa,
+mastercard,
+amex {
+    .tarjeta-#{$tarjeta} {
+
+
+        background-image: url("../imagenes/diversion/#{$tarjeta}.jpeg");
+        background-size: cover;
+        background-position: center;
+
     }
-    
+
 }
 
-@media only screen and (max-width: 856px) {.tarjeta-visa, 
-.tarjeta-mastercard,
-.tarjeta-amex {
-    
-     
+@media only screen and (max-width: 856px) {
+
+    .tarjeta-visa,
+    .tarjeta-mastercard,
+    .tarjeta-amex {
+
+
         width: 200px;
         height: 140px;
 
         border-radius: 13px;
 
-        background-color: rgb(29, 4, 119);}
-             
-    
-}
-@media only screen and (max-width: 620px) {.tarjeta-visa, 
-    .tarjeta-mastercard,
-    .tarjeta-amex {
-        
-         
-            width: 150px;
-            height: 80px;
-    
-            border-radius: 13px;
-    
-            background-color: rgb(29, 4, 119);}
-                 
-        
+        background-color: rgb(29, 4, 119);
     }
 
 
+}
+
+@media only screen and (max-width: 620px) {
+
+    .tarjeta-visa,
+    .tarjeta-mastercard,
+    .tarjeta-amex {
 
 
+        width: 150px;
+        height: 80px;
 
-/* seccion Cultura */
+        border-radius: 13px;
+
+        background-color: rgb(29, 4, 119);
+    }
+
+
+}
+
+
 
 .modal1 {
     display: flex;
     justify-content: center;
 }
-
-

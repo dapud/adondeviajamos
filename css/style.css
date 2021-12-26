@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .derechos {
@@ -14,11 +14,11 @@
   color: #000800;
   font-size: 30px;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 body {
@@ -36,7 +36,6 @@ h1 {
   height: -moz-fit-content;
   height: fit-content;
   background: #13929b;
-  /*  filter: invert(1); */
   margin: auto;
   font-size: 600%;
   color: #080807;
@@ -44,7 +43,7 @@ h1 {
   border: 1px #0a0101 solid;
   text-shadow: 1px 0px 20px beige;
   -webkit-transition-duration: 1s;
-          transition-duration: 1s;
+  transition-duration: 1s;
 }
 
 h1:hover {
@@ -68,7 +67,7 @@ h3 {
 
 h3 :hover {
   -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  transform: scale(1.1);
   letter-spacing: 15px;
   -webkit-transition: 1s;
   transition: 1s;
@@ -85,10 +84,10 @@ img {
   width: 220px;
   height: 200px;
   -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .articulos {
@@ -97,8 +96,8 @@ img {
   height: -moz-fit-content;
   height: fit-content;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   text-align: center;
 }
 
@@ -116,7 +115,7 @@ img {
 
 .articulo1:hover {
   -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  transform: scale(1.1);
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -130,7 +129,7 @@ img {
   padding: 1px;
   margin: 1px;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   background-image: -webkit-gradient(linear, right top, left top, from(#0dcaf0), color-stop(rgba(105, 20, 80, 0.103)), to(#0dcaf0));
   background-image: linear-gradient(to left, #0dcaf0, rgba(105, 20, 80, 0.103), #0dcaf0);
 }
@@ -144,20 +143,20 @@ img {
   padding: 10;
   margin: 5;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .imes {
   width: 200px;
   height: 120px;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   margin-inline: auto;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -270,17 +269,17 @@ footer {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
 }
 
 .logo:hover {
   -webkit-transform: translate(7%);
-          transform: translate(7%);
+  transform: translate(7%);
   -webkit-transition: 1s;
   transition: 1s;
 }
@@ -302,11 +301,11 @@ footer {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
 }
 
@@ -317,17 +316,17 @@ footer {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
 }
 
 .logo2:hover {
   -webkit-transform: translate(7%);
-          transform: translate(7%);
+  transform: translate(7%);
   -webkit-transition: 1s;
   transition: 1s;
 }
@@ -340,14 +339,14 @@ footer {
   display: flex;
   background-image: radial-gradient(#6c0202, #1b2b6e);
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   font-size: 50px;
   font-style: italic;
   color: darkgoldenrod;
   -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
 }
 
 .logo3:hover {
@@ -367,9 +366,9 @@ footer {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 33.33% 33.33% 33.33%;
-      grid-template-columns: 33.33% 33.33% 33.33%;
+  grid-template-columns: 33.33% 33.33% 33.33%;
   -ms-grid-rows: 300px 300px 300px;
-      grid-template-rows: 300px 300px 300px;
+  grid-template-rows: 300px 300px 300px;
   border: 2px solid black;
 }
 
@@ -378,9 +377,9 @@ footer {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
 }
 
 .caja1 {
@@ -418,8 +417,8 @@ footer {
   font-family: cursive;
   text-align: center;
   -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+  -ms-grid-row-align: center;
+  align-self: center;
 }
 
 @media only screen and (max-width: 450px) {
@@ -431,8 +430,8 @@ footer {
     font-family: cursive;
     text-align: center;
     -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
+    -ms-grid-row-align: center;
+    align-self: center;
   }
 }
 
@@ -445,25 +444,11 @@ footer {
     font-family: cursive;
     text-align: center;
     -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
+    -ms-grid-row-align: center;
+    align-self: center;
   }
 }
 
-/* .combo1 {
-
-    width: 500px;
-    height: fit-content;
-
-
-} */
-/* 
-.textoCultura {
-
-    width: 400px;
-    margin: 2px 2px 2px 2px;
-    text-align: center;
-} */
 .combo2--border {
   border: 1px black solid;
   background-color: #477998b0;
@@ -507,11 +492,11 @@ footer {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   border: 1px solid black;
   padding: 2px;
   background-size: cover;
@@ -544,11 +529,11 @@ footer {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   border: 1px solid black;
   padding: 2px;
   background-size: cover;
@@ -581,11 +566,11 @@ footer {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   border: 1px solid black;
   padding: 2px;
   background-size: cover;
@@ -618,11 +603,11 @@ footer {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   border: 1px solid black;
   padding: 2px;
   background-size: cover;
@@ -655,11 +640,11 @@ footer {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   border: 1px solid black;
   padding: 2px;
   background-size: cover;
@@ -681,9 +666,9 @@ footer {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 33.33% 33.33% 33.33%;
-      grid-template-columns: 33.33% 33.33% 33.33%;
+  grid-template-columns: 33.33% 33.33% 33.33%;
   -ms-grid-rows: 300px 300px 300px;
-      grid-template-rows: 300px 300px 300px;
+  grid-template-rows: 300px 300px 300px;
   border: 2px solid black;
 }
 
@@ -700,11 +685,11 @@ footer {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   border: 1px solid black;
   padding: 2px;
   background-image: url(/imagenes/relax/R-Piscinafull.jpg);
@@ -739,11 +724,11 @@ footer {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   border: 1px solid black;
   padding: 2px;
   background-image: url(/imagenes/relax/R-Piscina2600x800.jpeg);
@@ -777,11 +762,11 @@ footer {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   border: 1px solid black;
   padding: 2px;
   overflow: hidden;
@@ -816,11 +801,11 @@ footer {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   border: 1px solid black;
   padding: 2px;
   background-image: url(/imagenes/relax/relax8.jpeg);
@@ -854,11 +839,11 @@ footer {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   border: 1px solid black;
   padding: 2px;
   background-image: url(/imagenes/relax/relax9.jpeg);
@@ -926,7 +911,7 @@ footer {
   }
 }
 
-/* Diversion */
+
 .carru {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -935,8 +920,8 @@ footer {
   width: 100%;
   height: 100%;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .imaCar {
@@ -954,15 +939,15 @@ footer {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   font-size: 300%;
   text-align: center;
   -webkit-filter: drop-shadow(2px 4px 6px black);
-          filter: drop-shadow(2px 4px 6px black);
+  filter: drop-shadow(2px 4px 6px black);
 }
 
 @media only screen and (max-width: 932px) {
@@ -995,8 +980,8 @@ footer {
   height: 100%;
   background-color: #37c1cb;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .cajonRoman {
@@ -1008,11 +993,11 @@ footer {
   height: -moz-fit-content;
   height: fit-content;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   background-image: url(../imagenes/romantica/romanback.jpeg);
 }
 
@@ -1025,11 +1010,11 @@ footer {
   height: fit-content;
   color: #050505;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   display: inline-table;
   text-align: center;
   text-align-last: center;
@@ -1040,11 +1025,11 @@ footer {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .imaRoman2 {
@@ -1056,21 +1041,17 @@ footer {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .texRoman {
   text-align: center;
 }
 
-/* .modalRoma{
-
-    color: red;
-} */
 @media only screen and (max-width: 650px) {
   .imaRoman2 {
     width: 500px;
@@ -1138,11 +1119,11 @@ footer {
   width: 100%;
   height: 300px;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   background-image: url(../imagenes/romantica/romanback.jpeg);
 }
 
@@ -1153,11 +1134,11 @@ footer {
   width: 50%;
   height: 100%;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .close {
@@ -1173,14 +1154,14 @@ footer {
   background-color: #01c0b0;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 h5 {
@@ -1194,8 +1175,8 @@ h5 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .cuotas-1 {
@@ -1205,8 +1186,8 @@ h5 {
   width: 8em;
   font-size: 20px;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .cuotas-2 {
@@ -1216,8 +1197,8 @@ h5 {
   width: 16em;
   font-size: 40px;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .cuotas-3 {
@@ -1227,8 +1208,8 @@ h5 {
   width: 24em;
   font-size: 60px;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .cards {
@@ -1240,10 +1221,10 @@ h5 {
   border: #015e01;
   background-color: #1d0477;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .tarjeta-visa,
@@ -1274,6 +1255,7 @@ h5 {
 }
 
 @media only screen and (max-width: 856px) {
+
   .tarjeta-visa,
   .tarjeta-mastercard,
   .tarjeta-amex {
@@ -1285,6 +1267,7 @@ h5 {
 }
 
 @media only screen and (max-width: 620px) {
+
   .tarjeta-visa,
   .tarjeta-mastercard,
   .tarjeta-amex {
@@ -1295,13 +1278,14 @@ h5 {
   }
 }
 
-/* seccion Cultura */
+
 .modal1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
+
 /*# sourceMappingURL=style.css.map */
