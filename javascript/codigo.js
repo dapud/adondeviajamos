@@ -80,3 +80,5 @@
           const destinoNacional  = [ "San Fernando del Valle de Catamarca " , "Resistencia ", "Rawson ", "Córdoba ", "Corrientes ", "Paraná ", "Formosa ", "San Salvador de Jujuy ", "Santa Rosa ", "La Rioja ", "Mendoza ", "Posadas ", "Neuquén ", "Viedma ", "Salta ", "San Juan ", "San Luis ", "Río Gallegos ", "Santa Fe ", "Santiago del Estero ", "Ushuaia ", "San Miguel de Tucumán "]; 
           
           alert(destinoNacional.join("\n"));
+          alert ("te lo ordeno alfabeticamente para que sea mas facil encontrar tu destino")
+          alert(destinoNacional.sort());
