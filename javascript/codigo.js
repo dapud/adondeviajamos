@@ -26,6 +26,15 @@
                
                
               
+               const imagenesEsc = document.querySelector("#hola")
+               imagenesEsc.addEventListener("click", () => {
+               console.log ("funciona")
+      
+            
+            
+
+         
+       
 
 
                
@@ -78,26 +87,32 @@
                                default:
                                alert("Creo que no entendi lo que escribiste, podrias verificar que el nuemro de opcion sea la correcta?");
                   };
-          
-          alert ("A continuacion te detallamos todos los destinos nacionales a los que podes acceder")
+                  alert ("A continuacion te detallamos todos los destinos nacionales a los que podes acceder")
           const destinoNacional  = [ "San Fernando del Valle de Catamarca " , "Resistencia ", "Rawson ", "Córdoba ", "Corrientes ", "Paraná ", "Formosa ", "San Salvador de Jujuy ", "Santa Rosa ", "La Rioja ", "Mendoza ", "Posadas ", "Neuquén ", "Viedma ", "Salta ", "San Juan ", "San Luis ", "Río Gallegos ", "Santa Fe ", "Santiago del Estero ", "Ushuaia ", "San Miguel de Tucumán "]; 
           
           alert(destinoNacional.join("\n"));
           alert ("te lo ordeno alfabeticamente para que sea mas facil encontrar tu destino")
           alert(destinoNacional.sort());  
         
+         
+          
+          
 
 
        
          
 
 
-         const nuevosDestinos = document.getElementById ("nuevosDestinos");
+         
+         
+        
+        const nuevosDestinos = document.getElementById ("nuevosDestinos");
          for( let i= 0; i< destinoNacional.length; i++) {
          const li  = document.createElement ('li');
          li.textContent = destinoNacional[i];
          nuevosDestinos.appendChild(li);
          console.log (nuevosDestinos)
+         }
+
          
-        }
-        
+         })
