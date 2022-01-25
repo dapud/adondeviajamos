@@ -39,7 +39,7 @@
 
                
                
-                  pedido = prompt  ("que tipo de viaje quieres tener? elige: 1-Aventura, 2-Relax, 3-Romantico, 4-Diversion o 5-Cultural " ) ;
+                  pedido = prompt  ("Que tipo de viaje quieres tener? elige: 1-Aventura, 2-Relax, 3-Romantico, 4-Diversion o 5-Cultural " ) ;
           
           
                   switch (pedido) {
