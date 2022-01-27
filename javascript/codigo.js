@@ -31,12 +31,7 @@
                    
                    
 
-               /* 
-              
-               const imagenesEsc = document.querySelector("#hola")
-               imagenesEsc.addEventListener("click", () => {
-               console.log ("funciona")
-       */
+        
                 
                     
           
@@ -113,4 +108,4 @@
          }
         }
          
-         /*  }) */
+       
