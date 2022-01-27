@@ -93,6 +93,10 @@
                     convencionales a lugares exóticos, inaccesibles y a veces peligrosos del mundo. Muy a menudo combina
                     varios tipos de recreación, incluyendo deportes extremos.
                 </p>
+               
+                
+                
+                
 
 
 
@@ -140,6 +144,7 @@
                 </p>
 
             </article>
+            
 
         </Section>
         <br>
@@ -156,6 +161,7 @@
                 <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal"
                     data-whatever="@usuario">
                     Mas Info
+                    
                 </button>
 
                 <!-- The Modal -->
@@ -165,14 +171,34 @@
 
                             <!-- Modal Header -->
                             <div class="modal-header">
-                                <h4 class="modal-title">Miles de destinos por descubrir <br> ¡¡¡ Adonde Viajamos !!!
-                                </h4>
+                                          <h6 class="modal-title">Que tipo de viaje quieres tener? elige: 1-Aventura, 2-Relax, 3-Romantico, 4-Diversion o 5-Cultural<br> ¡¡¡ Adonde Viajamos !!!
+                                </h6>
+                                <br>
+                                
+                      
                                 <button type="button" class="close" data-dismiss="modal">&times;</button>
                             </div>
 
                             <!-- Modal body -->
                             <div class="modal-body">
-                                 !!! haz click sobre las fotos para recibir mas informacion !!!
+                                 !!! haz la eleccion para tu tipo de viaje !!!
+
+                                 <select id="opAven1"  onchange="getSelectValue();"  >
+                                    <h4>Que tipo de viaje quieres tener? elige: </h4>
+                                    <option value="0">Elige un tipo de viaje</option> 
+                                    <option value="1">Viaje de Aventura</option> 
+                                    <option value="2">Viaje de Relax</option>
+                                    <option value="3">Viaje Romantico</option>
+                                    <option value="4">Viaje de Diversion</option>
+                                    <option value="5">Viaje Cultural</option>
+                                         </select>
+
+                                         
+                                
+                                
+                                
+
+
                             </div>
 
                             <!-- Modal footer -->
@@ -200,9 +226,14 @@
             <br>
             <img class="imes" src="imagenes/romantica/romantica2rs.jpg" alt="escapadas romanticas">
             <br>
+            
+            
 
         </section>
         
+     <script>
+         
+     </script>
 
 
     </main>

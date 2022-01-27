@@ -119,7 +119,7 @@ img {
 .articulo1 {
     background-color: #8cb0c1;
     width: 250px;
-    height: 520px;
+    height: 550px;
     border: 2px solid rgb(110, 13, 37);
     padding: 10px;
     margin: 10px;
@@ -1221,4 +1221,16 @@ amex {
 .modal1 {
     display: flex;
     justify-content: center;
+}
+
+.botonesPrincipales {
+    display:flexbox;
+    width: auto;
+    height: auto;
+    background-color:#37c1cb;
+    justify-content: end;
+    align-items: center;
+    text-align: center;
+  
+    
 }

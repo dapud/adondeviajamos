@@ -24,29 +24,27 @@
                const oferta4 = new oferta ("diversion", "san carlos de bariloche", 25, 60000, "pension completa");
                const oferta5 = new oferta ("cultura", "neuquen", 5, 5000, "media pension");
                
-               
+               function getSelectValue(){
+
+                var selectedValue = document.getElementById("opAven1").value;
+                console.log(selectedValue);
+                   
+                   
+
+               /* 
               
                const imagenesEsc = document.querySelector("#hola")
                imagenesEsc.addEventListener("click", () => {
                console.log ("funciona")
-      
-            
-            
-
-         
-       
-
-
-               
-               
-                  pedido = prompt  ("Que tipo de viaje quieres tener? elige: 1-Aventura, 2-Relax, 3-Romantico, 4-Diversion o 5-Cultural " ) ;
+       */
+                
+                    
           
-          
-                  switch (pedido) {
+                  switch (selectedValue) {
                       case "1":
                           alert("Perfecto, elegiste el mejor viaje de Aventura, a continuacion te cuento los detalles.");
           
-                          if (pedido === "1") {
+                          if (selectedValue === "1") {
                               oferta1.mensaje();
                               break;
           
@@ -54,7 +52,7 @@
                           case "2":
                           alert("Perfecto, elegiste el mejor viaje de Relax, a continuacion te cuento los detalles.");
           
-                          if (pedido === "2") {
+                          if (selectedValue === "2") {
                               oferta2.mensaje();
                               break;
           
@@ -62,7 +60,7 @@
                           case "3":
                           alert("Perfecto, elegiste el mejor Viaje Romentico, a continuacion te cuento los detalles.");
           
-                          if (pedido === "3") {
+                          if (selectedValue === "3") {
                               oferta3.mensaje();
                               break;
           
@@ -70,7 +68,7 @@
                           case "4":
                           alert("Perfecto, elegiste divertirte a full, a continuacion te cuento los detalles.");
           
-                          if (pedido === "4") {
+                          if (selectedValue === "4") {
                               oferta4.mensaje();
                               break;
           
@@ -78,7 +76,7 @@
                           case "5":
                           alert("Perfecto, elegiste el mejor viaje Cultural, a continuacion te cuento los detalles.");
           
-                          if (pedido === "5") {
+                          if (selectedValue === "5") {
                               oferta5.mensaje();
                               break;
                           }
@@ -113,6 +111,6 @@
          nuevosDestinos.appendChild(li);
          console.log (nuevosDestinos)
          }
-
+        }
          
-         })
+         /*  }) */
